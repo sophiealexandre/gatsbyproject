@@ -46,10 +46,26 @@ a {
 
 }
 
-#logo {
+#logo1 {
   height: 50vh;
   min-height: 400px;
-  background-image: url('../images/aurore.jpg');
+  background-image: url('../images/design.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo2 {
+  height: 50vh;
+  min-height: 400px;
+  background-image: url('../images/development.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo3 {
+  height: 50vh;
+  min-height: 400px;
+  background-image: url('../images/quality.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
