@@ -6,7 +6,7 @@ import headerStyles from "./header.module.scss"
 const Header = () => {
 return (
 
-<header id ="toto" className={headerStyles.header}>
+<header id ="navbar" className={headerStyles.header}>
       <ul className={headerStyles.navList}>
          <li>
             <Link to="/" activeClassName={headerStyles.activeMenuItem}>
@@ -38,9 +38,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("toto").style.backgroundColor = "black";
+    document.getElementById("navbar").style.backgroundColor = "black";
   } else {
-    document.getElementById("toto").style.top = "0px";
+    document.getElementById("navbar").style.top = "0px";
   }
 }
 
