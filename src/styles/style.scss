@@ -25,7 +25,7 @@ a {
 #mas {
   height: 100vh;
   min-height: 500px;
-  background-image: url('../images/aurore.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/aurore.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ a {
 #logo1 {
   height: 50vh;
   min-height: 400px;
-  background-image: url('../images/design.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/design.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,22 +84,26 @@ a {
 }
 
 .parallax {
-  background-image: url('../images/aurore.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/aurore.jpg');
   min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
+
 .btn-ghost {
-  color: #4A4A4A;
-  border: 1px solid #4A4A4A;
+  color: white;
+  border: 1px solid white;
   padding: 8px 24px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: lighter;
   opacity: 0.9;
   transition: opacity 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
 }
 
 .btn-ghost:hover {
