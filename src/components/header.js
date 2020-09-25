@@ -14,18 +14,18 @@ return (
             </Link>
          </li>
          <li>
-            <Link to="/blog/" activeClassName={headerStyles.activeMenuItem}>
+            <Link to="#services" activeClassName={headerStyles.activeMenuItem}>
             Services
             </Link>
          </li>
          <li>
-            <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>
-            Contact
+            <Link to="#about" activeClassName={headerStyles.activeMenuItem}>
+            About
             </Link>
          </li>
          <li>
-            <Link to="/about/" activeClassName={headerStyles.activeMenuItem}>
-            About
+            <Link to="#contact" activeClassName={headerStyles.activeMenuItem}>
+            Contact
             </Link>
          </li>
       </ul>
@@ -33,8 +33,7 @@ return (
 )
 }
 
-
- if (typeof window !== `undefined`)
+if (typeof window !== `undefined`)
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
